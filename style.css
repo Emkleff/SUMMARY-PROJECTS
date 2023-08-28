@@ -24,6 +24,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+p{
+    padding: 0;
+    margin: 0;
+}
 
 /* Containers */
 .mainContainer{
@@ -59,7 +63,7 @@
 
 .Header-1{
     font-size: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -89,9 +93,9 @@
     gap: .5rem;
 }
 
-.bottomsection{
+/* .bottomsection{
 
-}
+} */
 
 .Header-2{
     font-size: 1.4rem;
@@ -110,7 +114,9 @@
 .numberColor{
 color: lightgray;
 }
-
+.summaryHeader{
+    font-size: 1.3rem;
+}
 .SummaryContent{
     display: flex;
     flex-direction: column;
